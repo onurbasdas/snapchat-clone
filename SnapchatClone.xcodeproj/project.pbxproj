@@ -14,6 +14,7 @@
 		B938C87B25C9A2880068F5DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B938C87925C9A2880068F5DB /* Main.storyboard */; };
 		B938C87D25C9A2890068F5DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B938C87C25C9A2890068F5DB /* Assets.xcassets */; };
 		B938C88025C9A2890068F5DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B938C87E25C9A2890068F5DB /* LaunchScreen.storyboard */; };
+		B940DABB25CA1DA300FB1A19 /* UserSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B940DABA25CA1DA300FB1A19 /* UserSingleton.swift */; };
 		B96952C625C9E5AD00CB7B14 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96952C525C9E5AD00CB7B14 /* FeedVC.swift */; };
 		B96952C925C9E5C300CB7B14 /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96952C825C9E5C300CB7B14 /* UploadVC.swift */; };
 		B96952CE25C9E5E100CB7B14 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96952CD25C9E5E100CB7B14 /* SettingsVC.swift */; };
@@ -33,6 +34,7 @@
 		B938C87C25C9A2890068F5DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B938C87F25C9A2890068F5DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B938C88125C9A2890068F5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B940DABA25CA1DA300FB1A19 /* UserSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSingleton.swift; sourceTree = "<group>"; };
 		B96952C525C9E5AD00CB7B14 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		B96952C825C9E5C300CB7B14 /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
 		B96952CD25C9E5E100CB7B14 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		B938C87225C9A2880068F5DB /* SnapchatClone */ = {
 			isa = PBXGroup;
 			children = (
+				B940DAB925CA1D7F00FB1A19 /* Model */,
 				B96952D125C9E64D00CB7B14 /* Delegates */,
 				B96952D025C9E60200CB7B14 /* ViewControllers */,
 				B938C87925C9A2880068F5DB /* Main.storyboard */,
@@ -99,6 +102,14 @@
 				B9EB70ED25C9A392007D4E6F /* GoogleService-Info.plist */,
 			);
 			path = SnapchatClone;
+			sourceTree = "<group>";
+		};
+		B940DAB925CA1D7F00FB1A19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B940DABA25CA1DA300FB1A19 /* UserSingleton.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		B96952D025C9E60200CB7B14 /* ViewControllers */ = {
@@ -237,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B940DABB25CA1DA300FB1A19 /* UserSingleton.swift in Sources */,
 				B96952C625C9E5AD00CB7B14 /* FeedVC.swift in Sources */,
 				B938C87825C9A2880068F5DB /* SignInVC.swift in Sources */,
 				B938C87425C9A2880068F5DB /* AppDelegate.swift in Sources */,
