@@ -20,6 +20,7 @@
 		B96952CE25C9E5E100CB7B14 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96952CD25C9E5E100CB7B14 /* SettingsVC.swift */; };
 		B9AE488025CA002C00C2CE59 /* SnapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE487F25CA002C00C2CE59 /* SnapVC.swift */; };
 		B9E0D75B25CADD17001F8895 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E0D75A25CADD17001F8895 /* FeedCell.swift */; };
+		B9E0D75E25CADF67001F8895 /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E0D75D25CADF67001F8895 /* Snap.swift */; };
 		B9EB70EE25C9A392007D4E6F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9EB70ED25C9A392007D4E6F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		B96952CD25C9E5E100CB7B14 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		B9AE487F25CA002C00C2CE59 /* SnapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapVC.swift; sourceTree = "<group>"; };
 		B9E0D75A25CADD17001F8895 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		B9E0D75D25CADF67001F8895 /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
 		B9EB70ED25C9A392007D4E6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				B940DABA25CA1DA300FB1A19 /* UserSingleton.swift */,
+				B9E0D75D25CADF67001F8895 /* Snap.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B940DABB25CA1DA300FB1A19 /* UserSingleton.swift in Sources */,
+				B9E0D75E25CADF67001F8895 /* Snap.swift in Sources */,
 				B96952C625C9E5AD00CB7B14 /* FeedVC.swift in Sources */,
 				B938C87825C9A2880068F5DB /* SignInVC.swift in Sources */,
 				B938C87425C9A2880068F5DB /* AppDelegate.swift in Sources */,
