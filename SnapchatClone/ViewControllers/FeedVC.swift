@@ -8,7 +8,7 @@
 import UIKit
 import Firebase
 
-class FeedVC: UIViewController {
+class FeedVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -17,7 +17,25 @@ class FeedVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.delegate = self
+        tableView.dataSource = self
+        
         getUserInfo()
+        getSnapsFromFirebase()
+    }
+    
+    func getSnapsFromFirebase() {
+        fireStoreDatabase.collection("Snaps").order(by: "date", descending: true).addSnapshotListener { (snapshot, error) in
+            if error != nil{
+                self.makeAlert(title: "Error", message: error?.localizedDescription ?? "Error")
+            }else{
+                if snapshot?.isEmpty == false && snapshot != nil{
+                    for document in snapshot!.documents{
+                        
+                    }
+                }
+            }
+        }
     }
     
     
@@ -43,6 +61,14 @@ class FeedVC: UIViewController {
         let okButton = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil)
         alert.addAction(okButton)
         self.present(alert, animated: true, completion: nil)
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! FeedCell
+        cell.feedUsernameLabel.text = "test"
+        return cell
     }
     
 }

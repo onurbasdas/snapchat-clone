@@ -19,6 +19,7 @@
 		B96952C925C9E5C300CB7B14 /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96952C825C9E5C300CB7B14 /* UploadVC.swift */; };
 		B96952CE25C9E5E100CB7B14 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96952CD25C9E5E100CB7B14 /* SettingsVC.swift */; };
 		B9AE488025CA002C00C2CE59 /* SnapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE487F25CA002C00C2CE59 /* SnapVC.swift */; };
+		B9E0D75B25CADD17001F8895 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E0D75A25CADD17001F8895 /* FeedCell.swift */; };
 		B9EB70EE25C9A392007D4E6F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9EB70ED25C9A392007D4E6F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		B96952C825C9E5C300CB7B14 /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
 		B96952CD25C9E5E100CB7B14 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		B9AE487F25CA002C00C2CE59 /* SnapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapVC.swift; sourceTree = "<group>"; };
+		B9E0D75A25CADD17001F8895 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		B9EB70ED25C9A392007D4E6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +102,7 @@
 				B938C87E25C9A2890068F5DB /* LaunchScreen.storyboard */,
 				B938C88125C9A2890068F5DB /* Info.plist */,
 				B9EB70ED25C9A392007D4E6F /* GoogleService-Info.plist */,
+				B9E0D75A25CADD17001F8895 /* FeedCell.swift */,
 			);
 			path = SnapchatClone;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				B9AE488025CA002C00C2CE59 /* SnapVC.swift in Sources */,
 				B938C87625C9A2880068F5DB /* SceneDelegate.swift in Sources */,
 				B96952CE25C9E5E100CB7B14 /* SettingsVC.swift in Sources */,
+				B9E0D75B25CADD17001F8895 /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
